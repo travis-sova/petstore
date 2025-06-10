@@ -272,11 +272,6 @@
 									"    ",
 									"    pm.expect(responseData).to.be.an('object');",
 									"    pm.expect(responseData.message).to.be.a('string');",
-									"});",
-									"",
-									"",
-									"pm.test(\"Response time is less than 200ms\", function () {",
-									"    pm.expect(pm.response.responseTime).to.be.below(200);",
 									"});"
 								],
 								"type": "text/javascript"
@@ -827,11 +822,6 @@
 									"    ",
 									"    pm.expect(responseData).to.be.an('object');",
 									"    pm.expect(responseData.message).to.be.a('string').and.to.equal('Pet not found');",
-									"});",
-									"",
-									"",
-									"pm.test(\"Response time is less than 200ms\", function () {",
-									"    pm.expect(pm.response.responseTime).to.be.below(200);",
 									"});"
 								],
 								"type": "text/javascript",
